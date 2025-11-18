@@ -20,6 +20,9 @@
 </div>
 <br>
 
+```
+docker run -d --restart=always --name=pairdrop -p 3000:3000 ghcr.io/ymxkiss/pairdrop:latest
+```
 ## Features
 File sharing on your local network that works on all platforms.
 
